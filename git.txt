@@ -1,0 +1,43 @@
+Git - https://github.com/jtmolon/LearningDay
+
+
+
+Iniciar um novo projeto com github.
+https://help.github.com/articles/create-a-repo
+
+
+
+Listas de Comandos básicos.
+
+git pull -> traz todas modificações de todos os branches.
+
+git pull origin master -> traz todas as modificações da branch master.
+
+Obs.: Ao fazer o git pull, o git faz (ou tenta fazer) o merge dos arquivos do repositório remoto com os arquivos locais.
+
+git fetch -> traz as modificações do repositório remoto, sem fazer merge
+
+git commit -am “mensagem” -> faz o commit local dos arquivos que foram alterados.
+
+git push origin master -> envia todas as modificações para repositorio remoto.
+
+git branch matheus molon -> Cria branch matheus a partir da branch molon.
+
+git checkout matheus -> Acessa branch “matheus”.
+
+git branch -a -> Lista todas as branchs.
+
+git branch matheus origin/matheus -> Cria uma cópia local do branch matheus.
+
+git checkout -b molon origin/molon -> Cria e acessa cópia local da branch molon.
+
+git reset --hard matheus -> Desfaz alterações da branch matheus.
+
+Gitignore
+
+
+.gitignore
+https://help.github.com/articles/ignoring-files
+
+.gitignore files on GitHub
+https://github.com/github/gitignore
